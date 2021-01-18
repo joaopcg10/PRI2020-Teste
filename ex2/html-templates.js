@@ -55,9 +55,6 @@ function pagClasse (classe,procrel) {
     `
 
    
-
-    console.log(JSON.stringify(procrel))
-
     if (classe.nivel == '3') {
     	pagHTML += `<h3>Processos Relacionados</h3><ul>`
     	procrel.forEach(proc => {
@@ -67,7 +64,7 @@ function pagClasse (classe,procrel) {
     		}
     	})
     	pagHTML += `</ul>`
-    } else {
+    }
 
     pagHTML += `
     	<h3> Classes descendentes <h3>
@@ -80,7 +77,6 @@ function pagClasse (classe,procrel) {
     		<li><a href="http://localhost:7777/classes/${c.codigo}">${c.codigo}</a></li>
     	`
     })
-    }
 
     pagHTML += `
 

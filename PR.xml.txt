@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pr>
+    <meta>
+        <key>PRI_TPC8</key>
+        <title>Aplicação WEB que simula um sistema de gestão de ficheiros</title>
+        <subtitle> Trabalho prático nº8 da cadeira PRI do MiEI 2020/21</subtitle>
+        <bdate>30-11-2020</bdate>
+        <edate>07-12-2020</edate>
+        <supervisor>José Carlos Ramalho</supervisor>
+    </meta>
+    
+    <workteam>
+        <worker num="a82428">
+            <name>João Pedro da Costa Gomes</name>
+            <email>a82428@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    
+    <abstract>
+        <p> Neste trabalho foi criado um servidor em node.js de forma a dar suporte a um sistema de gestão de ficheiros.</p>
+        <p> Este sistema permite ao utilizador fazer o upload de vários ficheiros de uma vez só, visualizar os ficheiros presentes no sistema (utilizando modais) e fazer download dos respetivos ficheiros.</p>
+    </abstract>
+    
+    <deliverables>
+        <link url="https://github.com/joaopcg10/PRI2020-Teste/tree/main/ex1">Exercício 1</link>
+        <link url="https://github.com/joaopcg10/PRI2020-Teste/tree/main/ex2">Exercício 2</link>
+    </deliverables>
+</pr>
